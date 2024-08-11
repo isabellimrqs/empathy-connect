@@ -1,0 +1,174 @@
+.main {
+  padding: 20px;
+  margin-bottom: 10%;
+}
+
+.bannerTextTitle {
+  margin-top: 150px;
+  font-weight: bold;
+  color: #8A3274;
+  font-size: 45px;
+  margin-left: 160px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bannerImgBack {
+  background-color: #47B0CD;
+  width: 35%;
+  border-left: 20%;
+  border-radius: 50%;
+  margin-left: 60%;
+  margin-top: -100px;
+}
+
+.middlenTitleSecond {
+  color: #8A3274;
+  text-align: center;
+  font-size: 45px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 100px 0;
+  font-weight: bold;
+}
+
+.middlenTitle{
+  color: #8A3274;
+  text-align: center;
+  font-size: 45px;
+  margin: 20% 0;
+  font-weight: bold;
+}
+
+.bannerImg img {
+  display: block;
+  margin: 10px auto;
+}
+
+.bannerText {
+  font-size: 25px;
+  text-align: left;
+  margin-top: -350px;
+  margin-right: 50%;
+  margin-left: 11%;
+  color: black;
+}
+
+.allCards {
+  margin-top: -14%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20%;
+}
+.allCards p{
+  color: black;
+}
+
+.firstCard{
+  height: 150px;
+  width: 230px;
+  padding: 30px;
+  border-top: 3px solid #47B0CD;
+  border-left: 3px solid #47B0CD;
+  border-right: 3px solid #47B0CD;
+  border-bottom: 3px solid #47B0CD;
+
+  /*borda redonda*/
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.firstCard img{
+  height: 7vh;
+  margin-left: 40%;
+  width: auto;
+}
+
+.firstCard p{
+  text-align: center;
+}
+
+.secondCard, .thirdCard, .fourCard, .firstCardSecond, .secondCardSecond, .thirdCardSecond, .fourCardSecond {
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Responsividade para Celulares (largura máxima de 480px) */
+@media only screen and (max-width: 480px) {
+  .bannerText {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .bannerTextTitle {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 5%;
+    text-align: center;
+  }
+
+  .bannerImgBack {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 20px;
+  }
+}
+
+/* Responsividade para Monitores Médios (largura máxima de 1024px) */
+@media only screen and (max-width: 1024px) {
+  .bannerText {
+    font-size: 20px;
+    margin-top: -100px;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  .bannerTextTitle {
+    font-size: 35px;
+    margin-top: 50px;
+    margin-left: 10%;
+    text-align: center;
+  }
+
+  .bannerImgBack {
+    width: 40%;
+    margin-left: 30%;
+    margin-top: -50px;
+  }
+}
+
+/* Responsividade para Laptops (largura máxima de 1440px) */
+@media only screen and (max-width: 1440px) {
+  .bannerText {
+    font-size: 22px;
+    margin-top: -18%;
+    margin-right: 45%;
+    margin-left: 10%;
+  }
+
+  .bannerTextTitle {
+    font-size: 40px;
+    margin-top: 150px;
+    margin-left: 10%;
+    text-align: justify;
+  }
+
+  .bannerImgBack {
+    width: 31%;
+    margin-left: 65%;
+    margin-top: -8%;
+  }
+  .bannerImg img{
+    margin-left: 25px;
+    height: 50vh;
+  }
+  
+}
+
+
+

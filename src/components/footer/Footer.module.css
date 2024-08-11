@@ -1,0 +1,31 @@
+.finally {
+    width: 100%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 0.1px solid lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #47B0CD;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    z-index: 1000; 
+}
+
+.second_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.second_image img {
+    width: 8rem;
+    height: 5rem;
+}
+
+.all_image {
+    width: 100px;
+    margin-top: 25px;
+    cursor: pointer;
+}
