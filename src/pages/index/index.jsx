@@ -48,60 +48,60 @@ export default function index() {
                     <p>A Saúde Não Pode Esperar</p>
                 </div>
                 <div className={styles.allCards}>
-                    <Link to="/depressao">
+                    <a href="/depressao">
                         <div className={styles.firstCard}>
                             <img src={ImgDepressao} alt="Imagem de ícone de depressão" />
                             <p>Depressão</p>
                         </div>
-                    </Link>
-                    <Link to="/ansiedade">
+                    </a>
+                    <a href="/ansiedade">
                         <div className={styles.firstCard}>
                             <img src={ImgAnsiedade} alt="Imagem de ícone de depressão" />
                             <p>Ansiedade</p>
                         </div>
-                    </Link>
-                    <Link to="/transtorno_panico">
+                    </a>
+                    <a href="/transtorno_panico">
                         <div className={styles.firstCard}>
                             <img src={ImgTranstornoPanico} alt="Imagem de ícone de depressão" />
                             <p>Transtorno</p>
                             <p>do Pânico</p>
                         </div>
-                    </Link>
-                    <Link to="/tda">
+                    </a>
+                    <a href="/tda">
                         <div className={styles.firstCard}>
                             <img src={ImgTDA} alt="Imagem de ícone de depressão" />
                             <p>TDA</p>
                         </div>
-                    </Link>
+                    </a>
                 </div>
                 <div className={styles.allCards}>
-                    <Link to="/autismo">
+                    <a href="/autismo">
                         <div className={styles.firstCard}>
                             <img src={ImgAutismo} alt="Imagem de ícone de depressão" />
                             <p>Autismo</p>
                         </div>
-                    </Link>
-                    <Link to="/transtorno_alimentar">
+                    </a>
+                    <a href="/transtorno_alimentar">
                         <div className={styles.firstCard}>
                             <img src={ImgTranstornoAlimentar} alt="Imagem de ícone de depressão" />
                             <p>Transtorno</p>
                             <p>Alimentar</p>
                         </div>
-                    </Link>
-                    <Link to="/transtorno_personalidade">
+                    </a>
+                    <a href="/transtorno_personalidade">
                         <div className={styles.firstCard}>
                             <img src={ImgPersonalidade} alt="Imagem de ícone de depressão" />
                             <p>Transtorno</p>
                             <p>de Personalidade</p>
                         </div>
-                    </Link>
-                    <Link to="/fobia_social">
+                    </a>
+                    <a href="/fobia_social">
                         <div className={styles.firstCard}>
                             <img src={ImgFobiaSocial} alt="Imagem de ícone de depressão" />
                             <p>Fobia</p>
                             <p>Social</p>
                         </div>
-                    </Link>
+                    </a>
                 </div>
                 {/*<div className={styles.middlenTitleSecond}>
                     <p>Converse com um especialista</p>

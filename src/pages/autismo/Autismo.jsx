@@ -17,7 +17,7 @@ export default function Autismo() {
         <div className={styles.container_tda}>
           {/* Início do game */}
           <div className={styles.iconGame}>
-            <a href="#">
+            <a href="/autismo/loginJogo">
               <img src={JogoMemoriaIcon} alt="Quiz Icon" />
               <div className={styles.button_jogar2}>
                 <p>Jogar</p>

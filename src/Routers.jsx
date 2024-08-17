@@ -7,10 +7,10 @@ import FobiaSocial from './pages/fobia_social/FobiaSocial'
 import TDA from './pages/tda/TDA'
 import TranstornoAlimentar from './pages/transtorno_alimentar/TranstornoAlimentar'
 import TranstornoPersonalidade from "./pages/transtorno_personalidade/TranstornoPersonalidade";
-import QuizTP from "./pages/transtorno_personalidade/quiz/QuizTP";
-import Maze from './pages/fobia_social/labirinto/Maze'
 import index from './pages/index/index';
 import TranstornoPanico from "./pages/transtorno_panico/TranstornoPanico";
+import LoginJogo from './pages/autismo/Autismo/Login'
+import MemoryGame from "./pages/autismo/Autismo/MemoryGame";
 
 const Routers = () => {
   return (
@@ -19,14 +19,15 @@ const Routers = () => {
         <Route path="/" Component={index}  exact />
         <Route path="/ansiedade" Component={Ansiedade} />
         <Route path="/autismo" Component={Autismo} />
+        <Route path="/autismo/loginJogo" Component={LoginJogo} />
+        <Route path="/autismo/Memory" Component={MemoryGame} />
         <Route path="/depressao" Component={Depressao} />
         <Route path="/fobia_social" Component={FobiaSocial} />
-        <Route path="/fobia_social/labirinto" Component={Maze} />
         <Route path="/tda" Component={TDA} />
         <Route path="/transtorno_alimentar" Component={TranstornoAlimentar} />
         <Route path="/transtorno_personalidade" Component={TranstornoPersonalidade} />
         <Route path="/transtorno_panico" Component={TranstornoPanico} />
-        <Route path="/transtorno_personalidade/quiz" Component={QuizTP} />
+
 
       </Routes>
     </BrowserRouter>

@@ -18,10 +18,12 @@ export default function TranstornoAlimentar() {
         <div className={styles.container_tda}>
           {/* Início do game */}
           <div className={styles.iconGame}>
-            <a href="#">
+            <a href="https://quiz-calmigo.vercel.app/">
               <img src={QuizIcon} alt="Quiz Icon" />
               <div className={styles.button_jogar2}>
+                
                 <p>Jogar</p>
+                
               </div>
             </a>
           </div>

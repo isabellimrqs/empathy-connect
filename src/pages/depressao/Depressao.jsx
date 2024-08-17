@@ -17,7 +17,7 @@ export default function Depressao() {
         <div className={styles.container_tda}>
           {/* Início do game */}
           <div className={styles.iconGame}>
-            <a href="#">
+            <a href="https://calendario-calmigo.vercel.app/">
               <img src={QuebraCabecaIcon} alt="Quebra Cabeça Icon" />
               <div className={styles.button_jogar2}>
                 <p>Jogar</p>

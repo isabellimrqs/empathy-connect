@@ -17,7 +17,7 @@ export default function FobiaSocial() {
         <div className={styles.container_tda}>
           {/* Início do game */}
           <div className={styles.iconGame}>
-            <a href="/fobia_social/labirinto">
+            <a href="https://labirinto-calmigo.vercel.app/">
               <img src={LabirintoIcon} alt="Labirinto Icon" />
               <div className={styles.button_jogar2}>
                 <p>Jogar</p>

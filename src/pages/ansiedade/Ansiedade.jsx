@@ -6,6 +6,7 @@ import Footer from "../../components/footer/Footer";
 import Slide4 from "../../assets/slide4.png";
 import Slide5 from "../../assets/slide5.png";
 import Books from "../../assets/books.png";
+import QuebraCabecaIcon from '../../assets/quebra_cabeca.png'
 
 export default function Ansiedade() {
   return (
@@ -15,6 +16,14 @@ export default function Ansiedade() {
         <h1>O Calmigo tem um desafio para você</h1>
         <div className={styles.container_tda}>
           {/* Início do game */}
+          <div className={styles.iconGame}>
+            <a href="https://ansiedade-calmigo.vercel.app/">
+              <img src={QuebraCabecaIcon} alt="Quebra Cabeça Icon" />
+              <div className={styles.button_jogar2}>
+                <p>Jogar</p>
+              </div>
+            </a>
+          </div>  
         
 
           {/* Fim do game */}
