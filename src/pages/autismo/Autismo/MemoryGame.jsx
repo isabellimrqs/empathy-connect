@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import styles from './MemoryGame.module.css';
 import Clebinho from "../../../assets/img-autismo/Clebinho.jpg";
-import Vanessa from '../../../assets/img-autismo/Vanessa.jpg';
+import Vanessa from '../../../assets/img-autismo/vanessa.jpg';
 import LUCA from '../../../assets/img-autismo/LUCA.jpg';
 import Leo from '../../../assets/img-autismo/leo.jpg';
 import Dona from '../../../assets/img-autismo/Dona.JPG';
