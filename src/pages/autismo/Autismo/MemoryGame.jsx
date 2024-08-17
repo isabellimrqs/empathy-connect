@@ -4,12 +4,12 @@ import Clebinho from "../../../assets/img-autismo/Clebinho.jpg";
 import Vanessa from '../../../assets/img-autismo/vanessa.jpg';
 import LUCA from '../../../assets/img-autismo/LUCA.jpg';
 import Leo from '../../../assets/img-autismo/leo.jpg';
-import Dona from '../../../assets/img-autismo/Dona.JPG';
-import Aghata from '../../../assets/img-autismo/Aghata.JPG';
+import Dona from '../../../assets/img-autismo/Dona.jpg';
+import Aghata from '../../../assets/img-autismo/Aghata.jpg';
 import Francis from '../../../assets/img-autismo/Francis.jpg';
 import Wilson from '../../../assets/img-autismo/Wilson.jpg';
 import Camila from '../../../assets/img-autismo/Camila.jpg';
-import Calmigo from '../../../assets/img-autismo/calmigo.jpg';
+import Calmigo from '../../../assets/img-autismo/CALMIGO.jpg';
 
 // Mapeamento dos personagens para as imagens
 const imageMap = {
